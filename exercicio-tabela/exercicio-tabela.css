@@ -1,0 +1,76 @@
+    *{
+        font-weight: bolder;
+        background-clip: text;
+        border-style: none;
+    }
+    .lib2{
+        color: white;
+        background-color: green;
+        opacity: 0.9;
+    }
+    .copa2{
+        color: white;
+        background-color: blue;
+        opacity: 0.9;
+    }
+    .rebaixamento2{
+        color: wheat;
+        background-color: red;
+        opacity: 0.9;
+    }
+    .rebaixamento:hover{
+        background-color: red;
+        opacity: 0.9;
+        overflow: hidden;
+        color: white;
+    }
+    .lib:hover{
+        background-color: green;
+        opacity: 0.9;
+        overflow: hidden;
+        color: white;
+    }
+    .copa:hover{
+        background-color: blue;
+        opacity: 0.9;
+        overflow: hidden;
+        color: white;
+    }
+    header{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        color: white;
+        opacity: 0.5;
+    }
+    table{
+        text-align: center;
+        width: center;
+    }
+    thead{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: larger;
+        color: black;
+        text-align: center;
+        background-color: whitesmoke;
+        opacity: 0.7;
+        cursor: pointer;
+    }
+    tbody{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        background-color: whitesmoke;
+        opacity: 0.7;
+        cursor: pointer;
+    }
+    .time{
+        text-align: left;
+    }
+    body{ 
+        background-image: url(https://portal.fgv.br/sites/portal.fgv.br/files/styles/noticia_geral/public/noticias/02/22/futebol.jpg?itok=rgknOLTV);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: center;
+    }
+    
+

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Brasileirão</title>
+    <link rel="stylesheet" type="text/css" href="exercicio-tabela.css">
+</head>
+<!--Exercício HTML
+1) Inspirado em https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/
+recrie a tabela do Brasileirão Série A.
+2) Colocar os brasões dos times são opcionais
+3) As cores são opcionais.
+4) Desafio: Use da mesclagem de linhas para definir as zonas de libertadores, copa sul-americana e rebaixamento.-->
+<body>
+    <header>
+        <h1>BRASILEIRÃO 2022</h1>
+    </header>
+    <main> 
+        <section>
+            <table cellpadding="12" position="center">
+                <thead>
+                    <th colspan="12">Classificação dos Times de Futebol Masculino Brasileiro - Série A</th>
+                    <tr>
+                        <th>Classificação</th>
+                        <th>Posição</th>
+                        <th>Time</th>
+                        <th>Pontos</th>
+                        <th>Jogos</th>
+                        <th>Vitórias</th>
+                        <th>Empates</th>
+                        <th>Derrotas</th>
+                        <th>Gols Pró</th>
+                        <th>Gols Contra</th>
+                        <th>Saldo de Gols</th>
+                        <th>Aproveitamento</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr class="lib">
+                    <td rowspan="6" class="lib2">Libertadores</td>
+                    <td>1</td>
+                    <td class="time"><img src="./img-brasoes/palmeiras.webp" height="25"> Palmeiras</td>
+                    <td>57</td>
+                    <td>27</td>
+                    <td>16</td>
+                    <td>9</td>
+                    <td>2</td>
+                    <td>44</td>
+                    <td>19</td>
+                    <td>25</td>
+                    <td>70%</td>
+                </tr>
+                <tr class="lib">
+                    <td>2</td>
+                    <td class="time"><img src="./img-brasoes/fluminense.webp"height="25"> Fluminense</td>
+                    <td>48</td>
+                    <td>27</td>
+                    <td>14</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>42</td>
+                    <td>31</td>
+                    <td>11</td>
+                    <td>59%</td>
+                </tr>
+                <tr class="lib">
+                    <td>3</td>
+                    <td class="time"><img src="./img-brasoes/internacional.webp"height="25"> Internacional</td>
+                    <td>46</td>	
+                    <td>26</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>4</td>
+                    <td>41</td>
+                    <td>25</td>	
+                    <td>16</td>
+                    <td>59%</td>
+                </tr>
+                <tr class="lib">
+                    <td>4</td>
+                    <td class="time"><img src="./img-brasoes/flamengo.webp"height="25"> Flamengo</td>
+                    <td>45</td>
+                    <td>27</td>
+                    <td>13</td>
+                    <td>6</td>
+                    <td>8</td>
+                    <td>42</td>
+                    <td>24</td>
+                    <td>18</td>
+                    <td>56%</td>
+                </tr>
+                <tr class="lib">
+                    <td>5</td>
+                    <td class="time"><img src="./img-brasoes/corinthians.webp"height="25"> Corinthians</td>
+                    <td>44</td>
+                    <td>27</td>
+                    <td>12</td>
+                    <td>8</td>
+                    <td>7</td>
+                    <td>30</td>
+                    <td>26</td>
+                    <td>4</td>
+                    <td>54%</td>
+                </tr>
+                <tr class="lib">
+                    <td>6</td>
+                    <td class="time"><img src="./img-brasoes/athletico-pr.webp"height="25"> Athletico-PR</td>
+                    <td>44</td>
+                    <td>27</td>
+                    <td>12</td>
+                    <td>8</td>
+                    <td>7</td>
+                    <td>33</td>
+                    <td>31</td>
+                    <td>2</td>
+                    <td>54%</td>
+                </tr>
+                <tr class="copa">
+                    <td rowspan="6" class="copa2">Copa Sul-Americana</td>
+                    <td>7</td>
+                    <td class="time"><img src="./img-brasoes/atletico-mg.webp"height="25"> Athletico-MG</td>
+                    <td>40</td>
+                    <td>27</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>7</td>
+                    <td>34</td>
+                    <td>30</td>
+                    <td>4</td>
+                    <td>49%</td>
+                </tr>
+                <tr class="copa">
+                    <td>8</td>
+                    <td class="time"><img src="./img-brasoes/america-mg.webp"height="25"> América-MG</td>
+                    <td>39</td>
+                    <td>27</td>
+                    <td>11</td>
+                    <td>6</td>
+                    <td>10</td>
+                    <td>23</td>
+                    <td>25</td>
+                    <td>-2</td>
+                    <td>48%</td>
+                </tr>
+                <tr class="copa">
+                    <td>9</td>
+                    <td class="time"><img src="./img-brasoes/goias.webp"height="25"> Goiás</td>
+                    <td>37</td>
+                    <td>27</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>8</td>
+                    <td>30</td>
+                    <td>33</td>
+                    <td>-3</td>
+                    <td>46%</td>
+                </tr>
+                <tr class="copa">
+                    <td>10</td>
+                    <td class="time"><img src="./img-brasoes/botafogo.webp"height="25"> Botafogo</td>
+                    <td>34</td>
+                    <td>27</td>
+                    <td>9</td>
+                    <td>7</td>
+                    <td>11</td>
+                    <td>27</td>
+                    <td>30</td>
+                    <td>-3</td>
+                    <td>42%</td>
+                </tr>
+                <tr class="copa">
+                    <td>11</td>
+                    <td class="time"><img src="./img-brasoes/santos.webp"height="25"> Santos</td>
+                    <td>34</td>
+                    <td>27</td>
+                    <td>8</td>
+                    <td>10</td>
+                    <td>9</td>
+                    <td>29</td>
+                    <td>25</td>
+                    <td>4</td>
+                    <td>42%</td>
+                </tr>
+                <tr class="copa">
+                    <td>12</td>
+                    <td class="time"><img src="./img-brasoes/bragantino.webp"height="25"> Red Bull Bragantino</td>
+                    <td>34</td>
+                    <td>27</td>
+                    <td>8</td>
+                    <td>10</td>
+                    <td>9</td>
+                    <td>37</td>
+                    <td>34</td>
+                    <td>3</td>
+                    <td>42%</td>
+                </tr>
+                <tr>
+                    <td rowspan="4"></td>
+                        <td>13</td>
+                        <td class="time"><img src="./img-brasoes/sao-paulo.webp"height="25"> São Paulo</td>
+                        <td>34</td>
+                        <td>27</td>
+                        <td>7</td>
+                        <td>13</td>
+                        <td>7</td>
+                        <td>35</td>
+                        <td>31</td>
+                        <td>4</td>
+                        <td>42%</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td class="time"><img src="./img-brasoes/fortaleza.webp"height="25"> Fortaleza</td>
+                    <td>31</td>
+                    <td>27</td>
+                    <td>8</td>
+                    <td>7</td>
+                    <td>12</td>
+                    <td>25</td>
+                    <td>29</td>
+                    <td>-4</td>
+                    <td>38%</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td class="time"><img src="./img-brasoes/ceara.webp"height="25"> Ceará</td>
+                    <td>31</td>
+                    <td>27</td>
+                    <td>6</td>
+                    <td>13</td>
+                    <td>8</td>
+                    <td>26</td>
+                    <td>28</td>
+                    <td>-2</td>
+                    <td>38%</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td class="time"><img src="./img-brasoes/coritiba.webp"height="25"> Coritiba</td>
+                    <td>28</td>
+                    <td>27</td>
+                    <td>8</td>
+                    <td>4</td>
+                    <td>15</td>
+                    <td>28</td>
+                    <td>43</td>
+                    <td>-15</td>
+                    <td>35%</td>
+                </tr>
+                <tr class="rebaixamento">
+                    <td rowspan="4" class="rebaixamento2">Rebaixamento</td>
+                    <td>17</td>
+                    <td class="time"><img src="./img-brasoes/avai.webp"height="25"> Avaí</td>
+                    <td>28</td>
+                    <td>27</td>
+                    <td>7</td>
+                    <td>7</td>
+                    <td>13</td>
+                    <td>26</td>
+                    <td>39</td>
+                    <td>-13</td>
+                    <td>35%</td>
+                </tr>
+                <tr class="rebaixamento">
+                    <td>18</td>
+                    <td class="time"><img src="./img-brasoes/cuiaba.webp"height="25"> Cuiabá</td>
+                    <td>27</td>
+                    <td>27</td>
+                    <td>6</td>
+                    <td>9</td>
+                    <td>12</td>
+                    <td>19</td>
+                    <td>27</td>
+                    <td>-8</td>
+                    <td>33%</td>
+                </tr>
+                <tr class="rebaixamento">
+                    <td>19</td>
+                    <td class="time"><img src="./img-brasoes/atletico-go.webp"height="25"> Atlético-GO</td>
+                    <td>22</td>
+                    <td>26</td>
+                    <td>5</td>
+                    <td>7</td>
+                    <td>14</td>
+                    <td>23</td>
+                    <td>40</td>
+                    <td>-17</td>
+                    <td>28%</td>
+                </tr>
+                <tr class="rebaixamento">
+                    <td>20</td>
+                    <td class="time"><img src="./img-brasoes/juventude.webp"height="25"> Juventude</td>
+                    <td>19</td>
+                    <td>27</td>
+                    <td>3</td>
+                    <td>10</td>
+                    <td>14</td>
+                    <td>21</td>
+                    <td>45</td>
+                    <td>-24</td>
+                    <td>23%</td>
+                </tr>
+                </tbody>
+        </table>
+        </section>
+        <br>
+        <hr />
+    </main>
+    <footer>
+        ©
+        <script> 
+            document.write(new Date().getFullYear())
+        </script>
+        Soulcode Academy - Estudo de Tabelas no HTML
+    </footer>
+</body>
+</html>
+</body>
+</html>

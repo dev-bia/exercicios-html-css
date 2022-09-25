@@ -1,0 +1,123 @@
+
+<!--/ Exercício
+// 1) Montar um formulário conforme o que está sendo mostrado na imagem.
+// 2) Ao final da página adicione uma tabela informando as formações oferecidas pela soulcode com custo, prazo, início, duração, horário de aula, Formato de aula, Idioma de acordo com o site: https://soulcodeacademy.org/bootcamp no "saiba mais" terá todas as infos
+
+// Para o logo usem https://soulcodeacademy.org/assets/images/logo/light-logo.png-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoulCode</title>
+    <link rel="stylesheet" href="./forms-e-table.css" />
+</head>
+<body>
+    <br/>
+    <img src="/exercicio-forms-e-table/img-exercicio-forms/soul-logo.png">
+    <br/>
+    <h1 class="h1">Bem-vindo! Entre com seu email e senha.</h1>
+    <br/>
+    <form>
+        <div>
+            <label for="campoEmail">Email</label>
+            <br/>
+            <input id="campoEmail" type="text" name="campoEmail" placeholder="email@exemplo.com" required />
+        </div>
+        <br/>
+        <div>
+            <label for="campoSenha">Senha</label>
+            <br/>
+            <input id="campoSenha" name="campoSenha" type="password" placeholder="Insira sua senha" required />
+        </div>
+        <br/>
+        <div>
+            <button>Login</button>
+        </div>
+        <br/>
+        <div>
+            <input type="checkbox" id="continuarConectado" />
+            <label for="continuarConectado">Deseja continuar conectado?</label>
+        </div>
+        <br/>
+    </form>
+    <br/>
+    <table cellpadding="12" stylealign="center">
+        <thead>
+            <th colspan="8">Bootcamps da SoulCode</th>
+            <tr>
+            <th>Curso</th>
+            <th>Custo</th>
+            <th>Prazo</th>
+            <th>Início</th>
+            <th>Duração</th>
+            <th>Horário de Aula</th>
+            <th>Formato da Aula</th>
+            <th>Idioma</th>
+            </tr>
+        </thead>
+        <br>
+        <tbody>
+            <tr>
+                <td>Engenharia de Dados</td>
+                <td>Bolsa 100%</td>
+                <td>03/10/2022</td>
+                <td>17/10/2022</td>
+                <td>12 semanas</td>
+                <td>08h ás 18h</td>
+                <td>Online/Ao vivo</td>
+                <td>Português</td>
+            </tr>
+            <tr>
+                <td>Java Full Stack</td>
+                <td>Bolsa 100%</td>
+                <td>16/01/2022</td>
+                <td>30/01/23</td>
+                <td>16 semanas</td>
+                <td>08h ás 18h</td>
+                <td>Online/Ao vivo</td>
+                <td>Português</td>
+            </tr>
+            <tr>
+                <td>Desenvolvedor Servicenow</td>
+                <td>Bolsa 100%</td>
+                <td>17/10/2022</td>
+                <td>31/10/2022</td>
+                <td>12 semanas</td>
+                <td>08h ás 18h</td>
+                <td>Online/Ao vivo</td>
+                <td>Português</td>
+            </tr>
+            <tr>
+                <td>Desenvolvedor Salesforce</td>
+                <td>Bolsa 100%</td>
+                <td>03/10/2022</td>
+                <td>17/10/2022</td>
+                <td>12 semanas</td>
+                <td>08h ás 18h</td>
+                <td>Online/Ao vivo</td>
+                <td>Português</td>
+            </tr>
+            <tr>
+                <td>Analista de Mídia e Performance</td>
+                <td>Bolsa 100%</td>
+                <td>28/12/2022</td>
+                <td>12/12/2022</td>
+                <td>12 semanas</td>
+                <td>08h ás 18h</td>
+                <td>Online/Ao vivo</td>
+                <td>Português</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+<br/>
+<br/>
+<br/>
+<hr/>
+<footer>
+    Exercício do bootcamp da soulcodeacademy 
+</footer>
+</html>

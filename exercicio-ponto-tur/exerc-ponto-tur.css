@@ -1,0 +1,35 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;    
+}
+h1{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 85px;
+}
+body{
+    background-image: url(https://www.researchgate.net/publication/303967191/figure/fig2/AS:373037649154050@1465950514728/Figura-1-Xilogravura-Fontes-As-fontes-utilizadas-foram-A-Xilo-Cordel-Literature-que.png);
+    background-position: top, bottom;
+    background-repeat: repeat-x;
+    text-align: center;
+}
+button{
+    text-align: center;
+    color: black;
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgba(0, 100, 0, 0.452);
+    font-size: 70px;
+    z-index: auto;
+}
+button:hover{
+    font-style: bolder;
+    cursor: pointer;
+    background-color: burlywood;
+}
+.mapa{
+    width: 30%;
+    height: 20%;
+}
