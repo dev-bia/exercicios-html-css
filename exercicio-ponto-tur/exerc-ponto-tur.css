@@ -1,35 +1,47 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: larger;    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger; 
 }
 h1{
     font-weight: bold;
-    font-style: italic;
     font-size: 50px;
-    text-align: center;
+    text-align: left;
     margin-top: 85px;
 }
 body{
-    background-image: url(https://www.researchgate.net/publication/303967191/figure/fig2/AS:373037649154050@1465950514728/Figura-1-Xilogravura-Fontes-As-fontes-utilizadas-foram-A-Xilo-Cordel-Literature-que.png);
-    background-position: top, bottom;
-    background-repeat: repeat-x;
-    text-align: center;
+    color: black;
+    background-image: url(https://cdn.shopify.com/s/files/1/1432/0090/products/M00F87_40cm.jpg?v=1498786058);
+    background-position: right;
+    background-repeat: repeat-y;
+    background-color: black;
+}
+.card{
+    border-style: double;
+    border-color: white;
+    background-color: white;
+    border-radius: 1cm;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 110px;
+    margin: 150px;
+    width: 800px;
+    transition: all 0.3s ease-out;
 }
 button{
     text-align: center;
-    color: black;
-    border-style: none;
+    color: white;
     border-radius: 5px;
-    background-color: rgba(0, 100, 0, 0.452);
-    font-size: 70px;
-    z-index: auto;
+    background-color: black;
+    width: 200px;
 }
 button:hover{
+    border-style: dotted;
+    color: black;
     font-style: bolder;
     cursor: pointer;
-    background-color: burlywood;
+    background-color: white;
 }
-.mapa{
-    width: 30%;
-    height: 20%;
+footer{
+    color: white;
 }
