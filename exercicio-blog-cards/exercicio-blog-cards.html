@@ -11,66 +11,101 @@ https://coolors.co/
 -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog e Cards</title>
-    <link rel="stylesheet" href=exercicio-blog-cards.css />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./rocket_FILL0_wght400_GRAD0_opsz48.png"/>
+  <title>Retrofuturismo</title>
+  <link rel="stylesheet" href=exercicio-blog-cards.css />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
+
 <body>
-    <h1>.Retrofuturismo</h1>
-    <div class="flex-container">
-    <div class="container-flex1">
-      <h3>Ruptura</h3>
-      <img src="https://br.web.img3.acsta.net/r_1920_1080/pictures/22/04/28/13/51/3690686.jpg" width="500px">
-      <p>
-        Em Ruptura, cinco funcionários de uma empresa chamada Lumen aceitam participar de um procedimento experimental onde suas memórias pessoais e de trabalho são permanentemente separadas. Quando estão no escritório, só terão as lembranças referentes ao trabalho e em casa, não lembraram das situações profissionais. Mas por trás desse estranho procedimento, se escondem vários segredos obscuros que a empresa quer manter guardados.
-      </p>
-      <br>
-      <button>Drama/Suspense</button>
-      <br/>
-      <button>2022</button>
-      <br/>
-      <button>EUA</button>
-      <br/>
-      <button>Apple TV</button>
-      <br>
+
+  <nav class="navbar fixed-top text-bg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://designculture.com.br/afinal-o-que-e-retrofuturismo" target="_blank">.Retrofuturismo</a>
     </div>
-    <div class="container-flex2">
-      <h3>Vivariun</h3>
-      <img src="https://br.web.img3.acsta.net/r_1920_1080/pictures/20/01/27/12/27/5354105.jpg" width="600px">
-      <p>
-        Enquanto procuram pela casa ideal para que possam morar juntos, um casal se vê preso em um complicado labirinto feito de moradas idênticas entre si. Quando eles percebem que o local não é nada do que imaginavam, pode ser tarde demais.
-      </p>
-      <br>
-      <button>Suspense/Ficção Científica</button>
-      <br/>
-      <button>2019</button>
-      <br/>
-      <button>Irlanda</button>
-      <br/>
-      <button>Amazon Prime</button>
-      <br>
+  </nav>
+
+  <section class="container">
+    <div class="card-group">
+
+        <div class="card" id="card1">
+            <img src="https://br.web.img3.acsta.net/r_1920_1080/pictures/22/04/28/13/51/3690686.jpg" class="card-img-top"
+            alt="Mulher deitada sobre mesa de sala de conferência.">
+              <div class="card-body">
+                <h5 class="card-title">Ruptura</h5>
+                <p class="card-text">
+                Em Ruptura, cinco funcionários de uma empresa chamada Lumen aceitam participar de um procedimento
+                experimental onde suas memórias pessoais e de trabalho são permanentemente separadas.
+                Quando estão no escritório, só terão as lembranças referentes ao trabalho e em casa, não lembraram das
+                situações profissionais.
+                Mas por trás desse estranho procedimento, se escondem vários segredos obscuros que a empresa quer manter
+                guardados.
+                </p>
+            </div>
+          <div class="card-footer" class="especifica">
+              <a href="https://tv.apple.com/br/episode/good-news-about-hell/umc.cmc.s80mx1ic96pu6ewupz8pfasf?action=playSmartEpisode" target="_blank">
+              <small class="text-muted">
+                <span class="badge text-bg-dark">Drama/Suspense</span>
+                <span class="badge text-bg-secondary">2022 - EUA</span>
+                <span class="badge text-bg-success">Apple TV</span>
+              </small>
+              </a>
+          </div>
+        </div>
+
+      <div class="card" id="card2">
+            <img src="https://br.web.img3.acsta.net/r_1920_1080/pictures/20/01/27/12/27/5354105.jpg" class="card-img-top"
+            alt="Condomínio de casas idênticas com mensagem de socorro no telhado">
+              <div class="card-body">
+                <h5 class="card-title">Vivariun</h5>
+                <p class="card-text">
+                Enquanto procuram pela casa ideal para que possam morar juntos, um casal se vê preso em um complicado
+                labirinto feito de moradas idênticas entre si.
+                Quando eles percebem que o local não é nada do que imaginavam, pode ser tarde demais.
+                </p>
+            </div>
+            <div class="card-footer" class="especifica">
+              <a href="https://www.primevideo.com/dp/amzn1.dv.gti.b994272b-8885-4714-8f83-dd4571d9d84e?autoplay=0&ref_=atv_cf_strg_wb" target="_blank">
+              <small class="text-muted">
+                <span class="badge text-bg-dark">Suspense/Ficção Científica</span>
+                <span class="badge text-bg-secondary">2019 - Irlanda</span>
+                <span class="badge text-bg-success">Amazon Prime</span>
+              </small>
+            </a>
+            </div>
+      </div>
+
+      <div class="card" id="card3">
+          <img src="https://www.fatosdesconhecidos.com.br/wp-content/uploads/2020/07/BM8_Nosedive7.jpg" class="card-img-top"
+            alt="Mulheres em Aeroporto">
+            <div class="card-body">
+                <h5 class="card-title">Black Mirror</h5>
+                <p class="card-text">
+                  "Nosedive" é o primeiro episódio da terceira temporada da série antológica de ficção científica britânica
+                  Black Mirror. O episódio se passa em um futuro onde uma menina se torna impopular na mídia social.
+                  Black Mirror explora sensações do mal-estar contemporâneo, onde cada episódio conta uma história diferente,
+                  traçando uma antologia que mostra o outro lado da vida atrelada à tecnologia.
+                </p>
+            </div>
+            <div class="card-footer" class="especifica">
+              <a href="https://www.netflix.com/title/70264888" target="_blank">
+                <small class="text-muted">
+                  <span class="badge text-bg-dark">Científica/Drama</span>
+                  <span class="badge text-bg-secondary">2016 - Reino Unido</span>
+                  <span class="badge text-bg-success">Netflix</span>
+                </small>
+              </a>
+            </div>
+      </div>
     </div>
-    <div class="container-flex3">
-      <h3>Black Mirror</h3>
-      <img src="https://br.web.img3.acsta.net/r_1920_1080/pictures/16/08/19/09/31/073960.jpg" width="500px">
-      <p>
-        "Nosedive" é o primeiro episódio da terceira temporada da série antológica de ficção científica britânica Black Mirror. O episódio se passa em um futuro onde uma menina se torna impopular na mídia social. 
-        Black Mirror explora sensações do mal-estar contemporâneo, onde cada episódio conta uma história diferente, traçando uma antologia que mostra o outro lado da vida atrelada à tecnologia.
-      </p>
-      <br>
-      <button>Suspense/Ficção Científica/Drama</button>
-      <br/>
-      <button>2016</button>
-      <br/>
-      <button>Reino Unido</button>
-      <br/>
-      <button>Netflix</button>
-      <br>
-    </div>
-  </div>
+  </section>
 </body>
+
 </html>
